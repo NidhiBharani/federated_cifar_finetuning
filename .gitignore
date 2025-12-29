@@ -1,0 +1,11 @@
+nvflare-cifar-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.tmp/
+.DS_Store
+
+# NVFlare / data artifacts
+/tmp/nvflare/
