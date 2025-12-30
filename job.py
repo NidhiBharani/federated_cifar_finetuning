@@ -27,5 +27,5 @@ if __name__ == "__main__":
         runner = ScriptRunner(script=train_script)
         job.to(runner, f"site-{i}")
 
-    # job.export_job("/tmp/nvflare/jobs/job_config")
-    job.simulator_run("/tmp/nvflare/jobs/workdir", gpu="0")
+    job.export_job("/tmp/nvflare/jobs/job_config")
+    #job.simulator_run("/tmp/nvflare/jobs/workdir", gpu="0")
